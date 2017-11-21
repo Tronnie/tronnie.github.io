@@ -114,9 +114,10 @@ aside {
 		background-color: #ffffff;
 		width:270px;
 		height: 300px;
+		float: right;
 		position: absolute;
 		top:200px;
-		right:200px;
+		right:10px;
 		color: #777777;
 }
 
