@@ -14,10 +14,10 @@ header {
 	padding: 20px;
 	margin-bottom: 20px;
 	background: #ffffff;
-	border: #cccccc; 
+	border: #cccccc;
 	color: red;
 	margin:0;
-	border-bottom: solid 3px #777777;	
+	border-bottom: solid 3px #777777;
 }
 
 section {
@@ -28,7 +28,7 @@ section {
 		background-color: #4aaaa5;
 		position: relative;
 		color: white;
-		float: left; 	
+		float: left;
 		margin: 0;
 		padding: 18px;
 		top:-57.5px;
@@ -40,7 +40,7 @@ section {
 		position:relative;
 		color: #777777;
 		float:right;
-		border-right: inset; 
+		border-right: inset;
 		padding:10px;
 		top:-30px;
 	}
@@ -75,7 +75,7 @@ section {
 		height: 600px;
 	}
 
-	
+
 	h2 {
 		line-height: 45px color: #777777;
 		margin-bottom: 20px;
@@ -122,7 +122,7 @@ aside {
 .buttons {
 		float:right;
 		margin-right: 55px;
-		margin-top: 20px;		
+		margin-top: 20px;
 }
 
 footer {
@@ -150,18 +150,18 @@ footer {
 
 .box-1 {
 	top: 20%;
-	left: 2%; 
+	left: 2%;
 }
 .box-2 {
 	top: 20%;
-	right: 2%; 
+	right: 2%;
 }
 .box-3 {
 	bottom: 0;
-	left: 2%; 
+	left: 2%;
 }
 .box-4 {
-	bottom: 0; 
+	bottom: 0;
 	right: 2%;
 }
 	/**<!-- Building contact form here -->**/
@@ -179,7 +179,3 @@ form {
 .form {
 	width: 500px;
 }
-
-
-
-	
