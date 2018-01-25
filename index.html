@@ -1,12 +1,14 @@
-<!--Homework 1: Basic Profile for Gail with three pages -->
 <!DOCTYPE html>
 <html lang="en-us">
 
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Gail Iz...</title>
 	<link rel="stylesheet" type= "text/css" href="assets/css/style.css">
-	<font-family: 'Georgia', Times, Times New Roman, serif;>
+	<!-- <font-family: 'Georgia', Times, Times New Roman, serif;> -->
+	<link href="https://fonts.googleapis.com/css?family=Carter+One|Pompiere|Space+Mono" rel="stylesheet">
+
 </head>
 
 <body>
@@ -16,33 +18,37 @@
 
 		<header>
 
-		<h1>
-			<section id="name">Gail Izaguirre <!--#4aaaas -->
-			</section>
-		</h1>
-
-		<!--make it a class? figure out linking object?-->
-
-			<section id="contact">Contact
-				<a href="./contact.html" id="Contact">></a>
-			</section>
-
-			<section
-
-				id="portfolio">Portfolio
-				<a href="./portfolio.html"><id="Portfolio">
-					></a>
-
-			</section>
-
-			<section
-				id="about">About
-				<a href="./index.html"><id="about">></a>
-			</section>
+			<h1>
+				<section id="name">Gail Izaguirre <!--#4aaaas -->
+				</section>
+			</h1>
 
 		</header>
 
 	</div>
+
+<!-- sidenav -->
+<p>
+</p><p></p>
+<div id="mySidenav" class="sidenav">
+<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+<!-- <a href="#">Welcome</a> -->
+<a href="./index.html">Welcome</a>
+<a href="./portfolio.html">Portfolio</a>
+<a href="./contact.html">Contact</a>
+</div>
+
+<span style="font-size:30px;cursor:pointer;color:#aeaeaf;" onclick="openNav()">&#9776; open</span>
+
+<script>
+function openNav() {
+	document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+	document.getElementById("mySidenav").style.width = "0";
+}
+</script>
 
 
 
@@ -57,15 +63,15 @@
 
 				<div class="buttons">
 
-					<a href="https://github.com" target="_blank"><img src="./assets/images/if_github2_252065.png"
+					<a href="https://github.com" target="_blank"><img src="./assets/images/contact/if_github2_252065.png"
 					width="50px"; height="50px";
 					></a>
 
-					<a href="https://stackoverflow.com" target="_blank"><img src="./assets/images/if_overflow_386674.png"
+					<a href="https://stackoverflow.com" target="_blank"><img src="./assets/images/contact/if_overflow_386674.png"
 					width="50px"; height="50px";
 					></a>
 
-					<a href="https://linkedin.com" target="_blank"><img src="./assets/images/if_linkedin_386655.png"
+					<a href="https://linkedin.com" target="_blank"><img src="./assets/images/contact/if_linkedin_386655.png"
 					width="50px"; height="50px";
 					></a>
 
@@ -81,7 +87,7 @@
 
 				<h2>About Gail</h2>
 
-				<img src="./assets/images/Boatshot2.jpeg" alt="Boatshot2"
+				<img src="./assets/images/head2crop.jpg" alt="Boatshot2"
 				width="100px"; height= "130px"; align="right";>
 
 				<p>In July 2017 Gail was admitted to the UCBerkeley Extension Coding Bootcamp.  For 24 weeks Gail will learn about the tools, practice the skills and build a portfolio of front-end and back-end software development.  The full stack knowledge and experience will allow Gail to grow in her current industry and/or expand into other industries.  She looks forward to the opportunities!</p>

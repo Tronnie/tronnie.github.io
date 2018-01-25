@@ -1,52 +1,54 @@
-<!--Homework 1: Basic Profile for Gail with three pages -->
-
 <!DOCTYPE html>
 <html lang="en-us">
 
-
 <head>
-	<title>Gail Iz...</title>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Gail Iz...</title>
 	<link rel="stylesheet" type= "text/css" href="assets/css/style.css">
-	<font-family: 'Georgia', Times, Times New Roman, serif;>
+	<!-- <font-family: 'Georgia', Times, Times New Roman, serif;> -->
+	<link href="https://fonts.googleapis.com/css?family=Carter+One|Pompiere|Space+Mono" rel="stylesheet">
+
 </head>
 
 <body>
-
+<div class="container">
+	 <!--this will be for the static header bar on top of the page -->
 	 <div>
 
 		<header>
 
+			<h1>
+				<section id="name">Gail Izaguirre <!--#4aaaas -->
+				</section>
+			</h1>
 
-		<h1>
-			<section id="name">Gail Izaguirre <!--#4aaaas -->
-			</section>
-		</h1>
-		<!--make it a class?-->
-
-			<section id="contact">Contact
-				<a href="./contact.html" id="Contact">></a>
-			</section>
-
-			<section
-
-				id="portfolio">Portfolio
-				<a href="./portfolio.html"><id="Portfolio">
-					></a>
-
-			</section>
-
-
-
-			<section
-				id="about">About
-				<a href="./index.html"><id="about">></a>
-			</section>
-
-	</header>
+		</header>
 
 	</div>
+
+<!-- sidenav -->
+<p>
+</p><p></p>
+<div id="mySidenav" class="sidenav">
+<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+<!-- <a href="#">Welcome</a> -->
+<a href="./index.html">Welcome</a>
+<a href="./portfolio.html">Portfolio</a>
+<a href="./contact.html">Contact</a>
+</div>
+
+<span style="font-size:30px;cursor:pointer;color:#aeaeaf;" onclick="openNav()">&#9776; open</span>
+
+<script>
+function openNav() {
+	document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+	document.getElementById("mySidenav").style.width = "0";
+}
+</script>
 	 <!--this will be the main body area -->
 	<div>
 	<div class="full"></div>
