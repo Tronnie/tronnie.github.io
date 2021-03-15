@@ -6,6 +6,7 @@
 ## Technologies
   * HTML
   * CSS
+  * javascript
   * Github
 
 ## Licensing
